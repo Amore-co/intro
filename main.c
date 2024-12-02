@@ -1,10 +1,13 @@
 #include <stdio.h>
+
 int main(void)
 {
-    int a, b, c;
-    a = 5;
-    b = 7;
-    c = a + b;
-    printf("%d + %d = %d/n" ,a ,b ,c );
+    int b;
+    printf("Enter a value:");
+    scanf("%d" , &b);
+    if (b<0)
+       {
+           printf("The value is negative/n");
+       }
     return 0;
 }
